@@ -1,0 +1,11 @@
+foo:
+  name: alex
+  url: https://github.com/gen0cide
+  tags:
+    - golang
+    - infosec
+    - redteam
+
+bar:
+  driver: postgres
+  conn_url: postgres://localhost/base_db?ssl_disable=true
