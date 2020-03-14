@@ -22,6 +22,7 @@ func Perform(b *barpkg.Bar, f *foopkg.Foo) {
 
 func main() {
 	app := fx.New(
+		cfx.NewFXEnvContext("EXAMPLE_FOO_BAR"),
 		barpkg.Module,
 		foopkg.Module,
 		cfx.Module,
